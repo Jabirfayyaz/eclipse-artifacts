@@ -1,0 +1,14 @@
+vertigo
+
+----------  DB --------------------------------
+Store procedure use for batch jobs
+sql will be compiled everytime it is executed.
+SP compiled only once.
+Avoid using views.
+
+=========== web server-------------
+increase JVM size of app server (-Xms & -Xmx)
+enable clustering capability in server and load balancing
+which means session is replicated and session attr
+must implment serializable.
+
